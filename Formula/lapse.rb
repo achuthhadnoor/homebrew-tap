@@ -9,10 +9,10 @@ class Lapse < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/achuthhadnoor/homebrew-tap/releases/download/v#{version}/lapse-aarch64-apple-darwin.tar.gz"
-      sha256 "8cf9d8a9469d0690a7bb5e7b2dbe11b789168caaa3d343e73805496608c62779"
+      sha256 "efc09da24a2e9ddbb90e9b55ffdea556fd257be945ba3f6609ad3e4d64a8a0d1"
     else
       url "https://github.com/achuthhadnoor/homebrew-tap/releases/download/v#{version}/lapse-x86_64-apple-darwin.tar.gz"
-      sha256 "8cf9d8a9469d0690a7bb5e7b2dbe11b789168caaa3d343e73805496608c62779"
+      sha256 "efc09da24a2e9ddbb90e9b55ffdea556fd257be945ba3f6609ad3e4d64a8a0d1"
     end
   end
 
